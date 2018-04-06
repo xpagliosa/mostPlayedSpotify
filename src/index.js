@@ -87,7 +87,7 @@ export default class App extends Component {
       {
         this.setState({ loadingText: "Sessão Expirada..." });
         this.setState({ loading: true });
-        this.signIn();
+        this.tryAgain();
       }
       else
       {
@@ -109,7 +109,7 @@ export default class App extends Component {
       {
         this.setState({ loadingText: "Sessão Expirada..." });
         this.setState({ loading: true });
-        this.signIn();
+        this.tryAgain();
       }
       else
       {
