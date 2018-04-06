@@ -56,11 +56,10 @@ export default class App extends Component {
 
   tryAgain = () => {
     console.log('tryAgain');
-    this.signIn().then(() => { 
+    await this.signIn();
       this.state.artist.length == 0
       ? this.setTagore()
-      : this.getMostPlayed(); 
-    });
+      : this.getMostPlayed();
   }
 
   signIn = async () => {
