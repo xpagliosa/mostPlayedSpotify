@@ -39,12 +39,9 @@ export default class App extends Component {
   };
 
   async componentDidMount() {
-    console.log('inicio');
     const token = await AsyncStorage.getItem('@CodeApi:token');
-    console.log('token');
     if (token)
     {
-      console.log('tem token');
       await this.setTagore();
     }
     else
@@ -54,16 +51,14 @@ export default class App extends Component {
     }
   }
 
-  tryAgain = () => {
-    console.log('tryAgain');
+  tryAgain = async () => {
     await this.signIn();
-      this.state.artist.length == 0
-      ? this.setTagore()
-      : this.getMostPlayed();
+    this.state.artist.length == 0
+    ? this.setTagore()
+    : this.getMostPlayed();
   }
 
   signIn = async () => {
-    console.log('signIn');
     try {
       this.setState({ loadingText: "Conectando Spotify..." });
       this.setState({ loading: true });
@@ -79,13 +74,11 @@ export default class App extends Component {
   };
 
   getMostPlayed = async () => {
-    console.log('MostPlayed');
     try {
       this.setState({ loadingText: "Carregando Músicas..." });
       this.setState({ loading: true });
       const response = await api.get(`/artists/${this.state.artist.id}/top-tracks?country=br`);
       const { tracks } = response.data;
-      console.log(response.data);
       this.setState({ tracks });
       this.setState({ loading: false });
       this.setState({ showArtist: true });
@@ -106,7 +99,6 @@ export default class App extends Component {
   };
 
   searchArtist = async () => {
-    console.log('SearchArtistl');
     try {
       const response = await api.get(`/search?q=${this.state.searchText}&type=artist&market=br&limit=50`);
       const search = response.data.artists;
@@ -129,7 +121,6 @@ export default class App extends Component {
   }
 
   setArtist = async (artist) => {
-    console.log('SetArtist');
     this.setState({ loadingText: "Carregando Artista..." });
     this.setState({ loading: true });
     await this.setState({ artist });
@@ -138,7 +129,6 @@ export default class App extends Component {
   }
 
   setTagore = async () => {
-    console.log('SetTagore');
     this.setState({ loadingText: "Carregando Artista..." });
     this.setState({ loading: true });
     await this.setState({ artist: tagore });
