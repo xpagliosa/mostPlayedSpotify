@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering ArtistContainer shouls render Confraria correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistContainer
+    artist={
+      Object {
+        "external_urls": Object {
+          "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G",
+        },
+        "followers": Object {
+          "href": null,
+          "total": 5773,
+        },
+        "genres": Array [],
+        "href": "https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G",
+        "id": "5slvIMrXIIfl1kNYszWP5G",
+        "images": Array [
+          Object {
+            "height": 640,
+            "url": "https://i.scdn.co/image/bf38f72ca4fdd438381b25193d07d098cd568207",
+            "width": 640,
+          },
+          Object {
+            "height": 300,
+            "url": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            "width": 300,
+          },
+          Object {
+            "height": 64,
+            "url": "https://i.scdn.co/image/8837012716d757c1867a121bef6dd6b375a41249",
+            "width": 64,
+          },
+        ],
+        "name": "Confraria da Costa",
+        "popularity": 30,
+        "type": "artist",
+        "uri": "spotify:artist:5slvIMrXIIfl1kNYszWP5G",
+      }
+    }
+    artistID="5slvIMrXIIfl1kNYszWP5G"
+    loading={false}
+    loadingText="Carregando Artista..."
+    tryAgain={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Loading
+        loadingText="Buscando Artista..."
+        signIn={undefined}
+        tryAgain={false}
+      />,
+      "style": Object {
+        "minHeight": 145,
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "loadingText": "Buscando Artista...",
+        "signIn": undefined,
+        "tryAgain": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Loading
+          loadingText="Buscando Artista..."
+          signIn={undefined}
+          tryAgain={false}
+        />,
+        "style": Object {
+          "minHeight": 145,
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "loadingText": "Buscando Artista...",
+          "signIn": undefined,
+          "tryAgain": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`rendering ArtistContainer shouls render Loading correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistContainer
+    artist={Array []}
+    artistID="6jesZl7rJFJZ8d5i9pX5q8"
+    loading={true}
+    loadingText="Carregando Artista..."
+    tryAgain={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Loading
+        loadingText="Buscando Artista..."
+        signIn={undefined}
+        tryAgain={false}
+      />,
+      "style": Object {
+        "minHeight": 145,
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "loadingText": "Buscando Artista...",
+        "signIn": undefined,
+        "tryAgain": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Loading
+          loadingText="Buscando Artista..."
+          signIn={undefined}
+          tryAgain={false}
+        />,
+        "style": Object {
+          "minHeight": 145,
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "loadingText": "Buscando Artista...",
+          "signIn": undefined,
+          "tryAgain": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`rendering ArtistContainer shouls render Tagore correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistContainer
+    artist={
+      Object {
+        "external_urls": Object {
+          "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8",
+        },
+        "followers": Object {
+          "href": null,
+          "total": 6212,
+        },
+        "genres": Array [],
+        "href": "https://api.spotify.com/v1/artists/6jesZl7rJFJZ8d5i9pX5q8",
+        "id": "6jesZl7rJFJZ8d5i9pX5q8",
+        "images": Array [
+          Object {
+            "height": 640,
+            "url": "https://i.scdn.co/image/b71f172b1d6c55024941d9ca72527b42ca581b31",
+            "width": 640,
+          },
+          Object {
+            "height": 300,
+            "url": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+            "width": 300,
+          },
+          Object {
+            "height": 64,
+            "url": "https://i.scdn.co/image/159ffd22713a6ab70363ea7198bed83fa240145f",
+            "width": 64,
+          },
+        ],
+        "name": "Tagore",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:6jesZl7rJFJZ8d5i9pX5q8",
+      }
+    }
+    artistID="6jesZl7rJFJZ8d5i9pX5q8"
+    loading={false}
+    loadingText="Carregando Artista..."
+    tryAgain={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Loading
+        loadingText="Buscando Artista..."
+        signIn={undefined}
+        tryAgain={false}
+      />,
+      "style": Object {
+        "minHeight": 145,
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "loadingText": "Buscando Artista...",
+        "signIn": undefined,
+        "tryAgain": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Loading
+          loadingText="Buscando Artista..."
+          signIn={undefined}
+          tryAgain={false}
+        />,
+        "style": Object {
+          "minHeight": 145,
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "loadingText": "Buscando Artista...",
+          "signIn": undefined,
+          "tryAgain": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

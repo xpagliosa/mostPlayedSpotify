@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
-import { View, Text, Image, TouchableOpacity } from 'react-native';
+import { Image, Text, TouchableOpacity, View } from 'react-native';
 
 import styles from './styles';
 
 export default class SongItem extends Component {
 
   _setArtist = () => {
-    this.props.setArtist(this.props.artist);
+    this.props.setArtist(this.props.artist.id);
+    this.props.toggleSearch();
   };
 
   render() {

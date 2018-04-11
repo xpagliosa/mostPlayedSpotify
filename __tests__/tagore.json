@@ -1,10 +1,10 @@
 {
     "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8",
+        "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8"
     },
     "followers": {
         "href": null,
-        "total": 6212,
+        "total": 6212
     },
     "genres": [],
     "href": "https://api.spotify.com/v1/artists/6jesZl7rJFJZ8d5i9pX5q8",
@@ -13,21 +13,21 @@
         {
         "height": 640,
         "url": "https://i.scdn.co/image/b71f172b1d6c55024941d9ca72527b42ca581b31",
-        "width": 640,
+        "width": 640
         },
         {
         "height": 300,
         "url": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
-        "width": 300,
+        "width": 300
         },
         {
         "height": 64,
         "url": "https://i.scdn.co/image/159ffd22713a6ab70363ea7198bed83fa240145f",
-        "width": 64,
+        "width": 64
         }
     ],
     "name": "Tagore",
     "popularity": 32,
     "type": "artist",
-    "uri": "spotify:artist:6jesZl7rJFJZ8d5i9pX5q8",
+    "uri": "spotify:artist:6jesZl7rJFJZ8d5i9pX5q8"
 }

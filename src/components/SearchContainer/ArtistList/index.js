@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { ScrollView, View, Text, FlatList, ActivityIndicator } from 'react-native';
-import ArtistItem from './components/ArtistItem';
+import ArtistItem from './ArtistItem';
 
 import styles from './styles';
 
@@ -24,6 +24,7 @@ export class ArtistList extends Component {
       ]}
       artist={item}
       setArtist={this.props.setArtist}
+      toggleSearch={this.props.toggleSearch}      
     />
   );
 

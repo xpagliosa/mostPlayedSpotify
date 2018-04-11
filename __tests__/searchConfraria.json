@@ -1,0 +1,159 @@
+{
+    "href": "https://api.spotify.com/v1/search?query=confraria&type=artist&market=BR&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G"
+        },
+        "followers": {
+          "href": null,
+          "total": 5775
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G",
+        "id": "5slvIMrXIIfl1kNYszWP5G",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/bf38f72ca4fdd438381b25193d07d098cd568207",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/8837012716d757c1867a121bef6dd6b375a41249",
+            "width": 64
+          }
+        ],
+        "name": "Confraria da Costa",
+        "popularity": 30,
+        "type": "artist",
+        "uri": "spotify:artist:5slvIMrXIIfl1kNYszWP5G"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1igjkV3rUZ8ftObgW7JG76"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1igjkV3rUZ8ftObgW7JG76",
+        "id": "1igjkV3rUZ8ftObgW7JG76",
+        "images": [],
+        "name": "Confraria",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1igjkV3rUZ8ftObgW7JG76"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7g50vd4ZwzNhGh0WTVvsZg"
+        },
+        "followers": {
+          "href": null,
+          "total": 151
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7g50vd4ZwzNhGh0WTVvsZg",
+        "id": "7g50vd4ZwzNhGh0WTVvsZg",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/32d068ea80bafd353c4fd2e69be2b28311aece19",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/3bb66077f76b01295993d431bdab6e9a37cbc25d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a9260b55520258c16062d74ef576d8b565af6561",
+            "width": 64
+          }
+        ],
+        "name": "Confraria da Música",
+        "popularity": 3,
+        "type": "artist",
+        "uri": "spotify:artist:7g50vd4ZwzNhGh0WTVvsZg"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4h2j0CV2INbBwA9LXTPd38"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4h2j0CV2INbBwA9LXTPd38",
+        "id": "4h2j0CV2INbBwA9LXTPd38",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/fb8925d2946d73b85bbfb249b0ee22395cb7a5c6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/8c17cb045dda11edae2d0038aae2d03ba63e11db",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/118573d0951e80bfdeb86f161e53d6e0470470ab",
+            "width": 64
+          }
+        ],
+        "name": "Confraria Project",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:4h2j0CV2INbBwA9LXTPd38"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6HJEavcKx1eUn67JR0IRri"
+        },
+        "followers": {
+          "href": null,
+          "total": 77
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6HJEavcKx1eUn67JR0IRri",
+        "id": "6HJEavcKx1eUn67JR0IRri",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ac44526d873624dcfdd10607af8c3f477311d9dd",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/8b52e6af676c63e4572596dcc7c5587a83a8b39b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/00580cd73e838dda6f64fe9a6f7d537b3f555bc3",
+            "width": 64
+          }
+        ],
+        "name": "Confraria Do Pasmado",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:6HJEavcKx1eUn67JR0IRri"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 5
+}

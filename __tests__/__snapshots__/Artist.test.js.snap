@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Artist shouls render Confraria correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Artist
+    external_urls={
+      Object {
+        "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G",
+      }
+    }
+    followers={
+      Object {
+        "href": null,
+        "total": 5773,
+      }
+    }
+    genres={Array []}
+    href="https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G"
+    id="5slvIMrXIIfl1kNYszWP5G"
+    images={
+      Array [
+        Object {
+          "height": 640,
+          "url": "https://i.scdn.co/image/bf38f72ca4fdd438381b25193d07d098cd568207",
+          "width": 640,
+        },
+        Object {
+          "height": 300,
+          "url": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+          "width": 300,
+        },
+        Object {
+          "height": 64,
+          "url": "https://i.scdn.co/image/8837012716d757c1867a121bef6dd6b375a41249",
+          "width": 64,
+        },
+      ]
+    }
+    name="Confraria da Costa"
+    popularity={30}
+    type="artist"
+    uri="spotify:artist:5slvIMrXIIfl1kNYszWP5G"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Image
+          source={
+            Object {
+              "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 50,
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Confraria da Costa
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 12,
+            }
+          }
+        >
+          5773
+           SEGUIDORES
+        </Text>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "height": 145,
+        "marginBottom": 10,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "source": Object {
+            "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+          },
+          "style": Object {
+            "borderRadius": 50,
+            "height": 100,
+            "width": 100,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Confraria da Costa",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#FFF",
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+        },
+        "ref": null,
+        "rendered": "Confraria da Costa",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": Array [
+            5773,
+            " SEGUIDORES",
+          ],
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#999",
+            "fontSize": 12,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          5773,
+          " SEGUIDORES",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Image
+            source={
+              Object {
+                "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 50,
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Confraria da Costa
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#999",
+                "fontSize": 12,
+              }
+            }
+          >
+            5773
+             SEGUIDORES
+          </Text>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "height": 145,
+          "marginBottom": 10,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "source": Object {
+              "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            },
+            "style": Object {
+              "borderRadius": 50,
+              "height": 100,
+              "width": 100,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Confraria da Costa",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#FFF",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            },
+          },
+          "ref": null,
+          "rendered": "Confraria da Costa",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": Array [
+              5773,
+              " SEGUIDORES",
+            ],
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#999",
+              "fontSize": 12,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            5773,
+            " SEGUIDORES",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Snapshot Artist shouls render Tagore correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Artist
+    external_urls={
+      Object {
+        "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8",
+      }
+    }
+    followers={
+      Object {
+        "href": null,
+        "total": 6212,
+      }
+    }
+    genres={Array []}
+    href="https://api.spotify.com/v1/artists/6jesZl7rJFJZ8d5i9pX5q8"
+    id="6jesZl7rJFJZ8d5i9pX5q8"
+    images={
+      Array [
+        Object {
+          "height": 640,
+          "url": "https://i.scdn.co/image/b71f172b1d6c55024941d9ca72527b42ca581b31",
+          "width": 640,
+        },
+        Object {
+          "height": 300,
+          "url": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+          "width": 300,
+        },
+        Object {
+          "height": 64,
+          "url": "https://i.scdn.co/image/159ffd22713a6ab70363ea7198bed83fa240145f",
+          "width": 64,
+        },
+      ]
+    }
+    name="Tagore"
+    popularity={32}
+    type="artist"
+    uri="spotify:artist:6jesZl7rJFJZ8d5i9pX5q8"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Image
+          source={
+            Object {
+              "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 50,
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Tagore
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 12,
+            }
+          }
+        >
+          6212
+           SEGUIDORES
+        </Text>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "height": 145,
+        "marginBottom": 10,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "source": Object {
+            "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+          },
+          "style": Object {
+            "borderRadius": 50,
+            "height": 100,
+            "width": 100,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Tagore",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#FFF",
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+        },
+        "ref": null,
+        "rendered": "Tagore",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": Array [
+            6212,
+            " SEGUIDORES",
+          ],
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#999",
+            "fontSize": 12,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          6212,
+          " SEGUIDORES",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Image
+            source={
+              Object {
+                "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 50,
+                "height": 100,
+                "width": 100,
+              }
+            }
+          />,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Tagore
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#999",
+                "fontSize": 12,
+              }
+            }
+          >
+            6212
+             SEGUIDORES
+          </Text>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "height": 145,
+          "marginBottom": 10,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "source": Object {
+              "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+            },
+            "style": Object {
+              "borderRadius": 50,
+              "height": 100,
+              "width": 100,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Tagore",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#FFF",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            },
+          },
+          "ref": null,
+          "rendered": "Tagore",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": Array [
+              6212,
+              " SEGUIDORES",
+            ],
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#999",
+              "fontSize": 12,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            6212,
+            " SEGUIDORES",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { View, Image, Text, StyleSheet } from 'react-native';
+import { Image, Text, View } from 'react-native';
 
 import styles from './styles';
 

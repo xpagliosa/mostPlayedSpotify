@@ -1,8 +1,7 @@
 import { StyleSheet } from 'react-native';
-import { general, metrics, colors, fonts } from '../../styles';
+import { general, metrics, colors, fonts } from '../../../styles';
 
 const styles = StyleSheet.create({
-  // ...general,
 
   listItem: {
     marginTop: metrics.baseMargin,

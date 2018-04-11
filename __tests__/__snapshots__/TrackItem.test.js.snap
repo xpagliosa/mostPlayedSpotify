@@ -1,0 +1,1135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering TrackItem shouls render Confraria Most Played Track correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TrackItem
+    data={
+      Object {
+        "album": Object {
+          "album_type": "album",
+          "artists": Array [
+            Object {
+              "external_urls": Object {
+                "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G",
+              },
+              "href": "https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G",
+              "id": "5slvIMrXIIfl1kNYszWP5G",
+              "name": "Confraria da Costa",
+              "type": "artist",
+              "uri": "spotify:artist:5slvIMrXIIfl1kNYszWP5G",
+            },
+          ],
+          "available_markets": Array [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA",
+          ],
+          "external_urls": Object {
+            "spotify": "https://open.spotify.com/album/5Qb0NZtuYUVeImT2CrCbNC",
+          },
+          "href": "https://api.spotify.com/v1/albums/5Qb0NZtuYUVeImT2CrCbNC",
+          "id": "5Qb0NZtuYUVeImT2CrCbNC",
+          "images": Array [
+            Object {
+              "height": 640,
+              "url": "https://i.scdn.co/image/bf38f72ca4fdd438381b25193d07d098cd568207",
+              "width": 640,
+            },
+            Object {
+              "height": 300,
+              "url": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+              "width": 300,
+            },
+            Object {
+              "height": 64,
+              "url": "https://i.scdn.co/image/8837012716d757c1867a121bef6dd6b375a41249",
+              "width": 64,
+            },
+          ],
+          "name": "Canções de Assassinato",
+          "release_date": "2012-12-07",
+          "release_date_precision": "day",
+          "type": "album",
+          "uri": "spotify:album:5Qb0NZtuYUVeImT2CrCbNC",
+        },
+        "artists": Array [
+          Object {
+            "external_urls": Object {
+              "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G",
+            },
+            "href": "https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G",
+            "id": "5slvIMrXIIfl1kNYszWP5G",
+            "name": "Confraria da Costa",
+            "type": "artist",
+            "uri": "spotify:artist:5slvIMrXIIfl1kNYszWP5G",
+          },
+        ],
+        "available_markets": Array [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA",
+        ],
+        "disc_number": 1,
+        "duration_ms": 222160,
+        "explicit": false,
+        "external_ids": Object {
+          "isrc": "BRIHF1200003",
+        },
+        "external_urls": Object {
+          "spotify": "https://open.spotify.com/track/33ztmhgNJ49Eu2y8pzrWbr",
+        },
+        "href": "https://api.spotify.com/v1/tracks/33ztmhgNJ49Eu2y8pzrWbr",
+        "id": "33ztmhgNJ49Eu2y8pzrWbr",
+        "is_local": false,
+        "name": "Rússia Reversa",
+        "popularity": 30,
+        "preview_url": "https://p.scdn.co/mp3-preview/04a8e1eca2c7d4c0a1cd856f6d5fffacadbef7dc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:33ztmhgNJ49Eu2y8pzrWbr",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Image
+          source={
+            Object {
+              "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />,
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Rússia Reversa
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#DDD",
+                "fontSize": 11,
+              }
+            }
+          >
+            Canções de Assassinato
+          </Text>
+        </View>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingBottom": 15,
+        "width": 710,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "source": Object {
+            "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+          },
+          "style": Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Rússia Reversa
+            </Text>,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                }
+              }
+            >
+              Canções de Assassinato
+            </Text>,
+          ],
+          "style": Object {
+            "marginLeft": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "Rússia Reversa",
+              "ellipsizeMode": "tail",
+              "style": Object {
+                "color": "#FFF",
+                "fontSize": 14,
+                "fontWeight": "bold",
+              },
+            },
+            "ref": null,
+            "rendered": "Rússia Reversa",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "Canções de Assassinato",
+              "ellipsizeMode": "tail",
+              "style": Object {
+                "color": "#DDD",
+                "fontSize": 11,
+              },
+            },
+            "ref": null,
+            "rendered": "Canções de Assassinato",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Image
+            source={
+              Object {
+                "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />,
+          <View
+            style={
+              Object {
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Rússia Reversa
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                }
+              }
+            >
+              Canções de Assassinato
+            </Text>
+          </View>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingBottom": 15,
+          "width": 710,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "source": Object {
+              "uri": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+            },
+            "style": Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFF",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Rússia Reversa
+              </Text>,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#DDD",
+                    "fontSize": 11,
+                  }
+                }
+              >
+                Canções de Assassinato
+              </Text>,
+            ],
+            "style": Object {
+              "marginLeft": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Rússia Reversa",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": "Rússia Reversa",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Canções de Assassinato",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                },
+              },
+              "ref": null,
+              "rendered": "Canções de Assassinato",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`rendering TrackItem shouls render Tagore Most Played Track correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TrackItem
+    data={
+      Object {
+        "album": Object {
+          "album_type": "album",
+          "artists": Array [
+            Object {
+              "external_urls": Object {
+                "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8",
+              },
+              "href": "https://api.spotify.com/v1/artists/6jesZl7rJFJZ8d5i9pX5q8",
+              "id": "6jesZl7rJFJZ8d5i9pX5q8",
+              "name": "Tagore",
+              "type": "artist",
+              "uri": "spotify:artist:6jesZl7rJFJZ8d5i9pX5q8",
+            },
+          ],
+          "available_markets": Array [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA",
+          ],
+          "external_urls": Object {
+            "spotify": "https://open.spotify.com/album/4V7bEy8Wq977L3ePq9sRvH",
+          },
+          "href": "https://api.spotify.com/v1/albums/4V7bEy8Wq977L3ePq9sRvH",
+          "id": "4V7bEy8Wq977L3ePq9sRvH",
+          "images": Array [
+            Object {
+              "height": 640,
+              "url": "https://i.scdn.co/image/b71f172b1d6c55024941d9ca72527b42ca581b31",
+              "width": 640,
+            },
+            Object {
+              "height": 300,
+              "url": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+              "width": 300,
+            },
+            Object {
+              "height": 64,
+              "url": "https://i.scdn.co/image/159ffd22713a6ab70363ea7198bed83fa240145f",
+              "width": 64,
+            },
+          ],
+          "name": "Pineal",
+          "release_date": "2016-10-21",
+          "release_date_precision": "day",
+          "type": "album",
+          "uri": "spotify:album:4V7bEy8Wq977L3ePq9sRvH",
+        },
+        "artists": Array [
+          Object {
+            "external_urls": Object {
+              "spotify": "https://open.spotify.com/artist/6jesZl7rJFJZ8d5i9pX5q8",
+            },
+            "href": "https://api.spotify.com/v1/artists/6jesZl7rJFJZ8d5i9pX5q8",
+            "id": "6jesZl7rJFJZ8d5i9pX5q8",
+            "name": "Tagore",
+            "type": "artist",
+            "uri": "spotify:artist:6jesZl7rJFJZ8d5i9pX5q8",
+          },
+        ],
+        "available_markets": Array [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA",
+        ],
+        "disc_number": 1,
+        "duration_ms": 210960,
+        "explicit": false,
+        "external_ids": Object {
+          "isrc": "BRTVW1600003",
+        },
+        "external_urls": Object {
+          "spotify": "https://open.spotify.com/track/27JzZhlMXXfRIXvduL22Hc",
+        },
+        "href": "https://api.spotify.com/v1/tracks/27JzZhlMXXfRIXvduL22Hc",
+        "id": "27JzZhlMXXfRIXvduL22Hc",
+        "is_local": false,
+        "name": "Pineal",
+        "popularity": 38,
+        "preview_url": "https://p.scdn.co/mp3-preview/450a8970fb17093ee764227005536951bf09cffc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:27JzZhlMXXfRIXvduL22Hc",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Image
+          source={
+            Object {
+              "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />,
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Pineal
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#DDD",
+                "fontSize": 11,
+              }
+            }
+          >
+            Pineal
+          </Text>
+        </View>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingBottom": 15,
+        "width": 710,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "source": Object {
+            "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+          },
+          "style": Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Pineal
+            </Text>,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                }
+              }
+            >
+              Pineal
+            </Text>,
+          ],
+          "style": Object {
+            "marginLeft": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "Pineal",
+              "ellipsizeMode": "tail",
+              "style": Object {
+                "color": "#FFF",
+                "fontSize": 14,
+                "fontWeight": "bold",
+              },
+            },
+            "ref": null,
+            "rendered": "Pineal",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "accessible": true,
+              "allowFontScaling": true,
+              "children": "Pineal",
+              "ellipsizeMode": "tail",
+              "style": Object {
+                "color": "#DDD",
+                "fontSize": 11,
+              },
+            },
+            "ref": null,
+            "rendered": "Pineal",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Image
+            source={
+              Object {
+                "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 25,
+                "height": 50,
+                "width": 50,
+              }
+            }
+          />,
+          <View
+            style={
+              Object {
+                "marginLeft": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Pineal
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                }
+              }
+            >
+              Pineal
+            </Text>
+          </View>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingBottom": 15,
+          "width": 710,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "source": Object {
+              "uri": "https://i.scdn.co/image/89ea0966db59f494acf05caa057e423bcb0133c1",
+            },
+            "style": Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFF",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Pineal
+              </Text>,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#DDD",
+                    "fontSize": 11,
+                  }
+                }
+              >
+                Pineal
+              </Text>,
+            ],
+            "style": Object {
+              "marginLeft": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Pineal",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "color": "#FFF",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                },
+              },
+              "ref": null,
+              "rendered": "Pineal",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Pineal",
+                "ellipsizeMode": "tail",
+                "style": Object {
+                  "color": "#DDD",
+                  "fontSize": 11,
+                },
+              },
+              "ref": null,
+              "rendered": "Pineal",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

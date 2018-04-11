@@ -13,14 +13,25 @@
     "react-native": "0.53.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
     "babel-jest": "22.2.0",
     "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
     "jest": "22.2.1",
     "react-devtools": "^3.2.1",
+    "react-dom": "^16.3.1",
     "react-test-renderer": "^16.3.0-alpha.1",
     "reactotron-react-native": "^1.14.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/__tests__/setup.js"
+    ],
+    "testMatch": [
+      "<rootDir>/__tests__/**/?(*.)(spec|test).js?(x)"
+    ]
   }
 }

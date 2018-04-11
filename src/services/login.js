@@ -9,8 +9,6 @@ const clientSecret = "877de743f4e6463da421ebbc6d1de9e8";
 
 const spotifyCredentials = binaryToBase64(utf8.encode(`${clientId}:${clientSecret}`));
 
-// console.log(spotifyCredentials);
-
 const login = create({
   baseURL: 'https://accounts.spotify.com/api',
   headers: {
@@ -22,12 +20,7 @@ const login = create({
   }
 });
 
-login.addAsyncRequestTransform(request => async () => {
-  console.log(request);
-});
-
 login.addResponseTransform(response => {
-  console.log(response);
   if (!response.ok) throw response;
 });
 

@@ -1,0 +1,33 @@
+{
+    "external_urls": {
+    "spotify": "https://open.spotify.com/artist/5slvIMrXIIfl1kNYszWP5G"
+    },
+    "followers": {
+    "href": null,
+    "total": 5773
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/5slvIMrXIIfl1kNYszWP5G",
+    "id": "5slvIMrXIIfl1kNYszWP5G",
+    "images": [
+    {
+        "height": 640,
+        "url": "https://i.scdn.co/image/bf38f72ca4fdd438381b25193d07d098cd568207",
+        "width": 640
+    },
+    {
+        "height": 300,
+        "url": "https://i.scdn.co/image/48d50a6b9914ec65d6f9cb7cea7646935bc79f38",
+        "width": 300
+    },
+    {
+        "height": 64,
+        "url": "https://i.scdn.co/image/8837012716d757c1867a121bef6dd6b375a41249",
+        "width": 64
+    }
+    ],
+    "name": "Confraria da Costa",
+    "popularity": 30,
+    "type": "artist",
+    "uri": "spotify:artist:5slvIMrXIIfl1kNYszWP5G"
+}

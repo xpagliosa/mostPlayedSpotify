@@ -53,7 +53,9 @@ buck-out/
 */fastlane/screenshots
 
 # XPA
-src_future/
+src_past/
 android/app/my-release-key.keystore
 android/gradle.properties.key
+android/gradle.properties.nokey
+gera-android
 
