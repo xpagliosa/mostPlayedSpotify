@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     width: metrics.screenWidth - 40,
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
   },
 
   trackImage: {
@@ -17,6 +18,7 @@ const styles = StyleSheet.create({
 
   trackInfo: {
     marginLeft: 10,
+    width: metrics.screenWidth - 130,
   },
 
   trackTitle: {
@@ -29,6 +31,22 @@ const styles = StyleSheet.create({
     fontSize: fonts.smaller,
     color: colors.light,
   },
+
+  play: {
+    width: 30,
+    height: 30,
+  },
+
+  playButton: {
+    width: 30,
+    height: 30,
+  },
+
+  rotate: {
+    fontSize: fonts.bigger,
+    color: colors.regular,
+    transform: [{ rotate: '90deg'}],
+  }
 });
 
 export default styles;

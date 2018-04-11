@@ -10,7 +10,8 @@
   "dependencies": {
     "apisauce": "^0.14.3",
     "react": "16.2.0",
-    "react-native": "0.53.0"
+    "react-native": "0.53.0",
+    "react-native-communications": "^2.2.1"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0",
